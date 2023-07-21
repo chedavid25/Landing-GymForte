@@ -142,7 +142,7 @@
 /* Estilos para celulares */
 @media screen and (max-width: 480px) {
   .grid-cards {
-    width: 100%;
+    width: 95%;
     padding-top: 50px;
     flex-direction: column;
     align-items: center;
@@ -150,8 +150,9 @@
   }
 
   .cards {
-    width: 100%;
+    min-width: 90%;
     margin: 10px 0;
+    flex: 0 0 auto;
   }
 
   .titulo-card {
