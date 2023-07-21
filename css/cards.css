@@ -135,7 +135,7 @@
 
   .cards-container {
     background-color: var(--segundo-color);
-    height: 1800px;
+    height: 1200px;
   }
 }
 
@@ -182,6 +182,6 @@
 
   .cards-container {
     background-color: var(--segundo-color);
-    height: 1800px;
+    height: 1350px;
   }
 }
