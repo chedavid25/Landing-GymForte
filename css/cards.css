@@ -118,9 +118,10 @@
 /* Estilos para tablets */
 @media screen and (max-width: 768px) {
   .grid-cards {
-    width: 90%;
+    width: 80%;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
   }
 
   .cards {
@@ -160,5 +161,27 @@
   .cards-container {
     background-color: var(--segundo-color);
     height: 1900px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .grid-cards {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .titulo-card {
+    font-size: 1.2rem;
+  }
+
+  .cards-container {
+    background-color: var(--segundo-color);
+    height: 1800px;
   }
 }

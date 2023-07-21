@@ -64,34 +64,6 @@
   transition: 0.6s;
 }
 
-@media screen and (max-width: 768px) {
-  .table-container {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .table-column {
-    width: 45%;
-    margin: 10px;
-  }
-
-  .table-column h3 {
-    font-size: 1.2rem;
-  }
-
-  .table-column p {
-    font-size: 1rem;
-  }
-
-  .table-column .price {
-    font-size: 1.1rem;
-  }
-
-  .table-section {
-    padding: 20px 0;
-  }
-}
-
 @media screen and (max-width: 480px) {
   .table-container {
     flex-direction: column;
@@ -118,5 +90,72 @@
 
   .table-section {
     padding: 10px 0;
+  }
+}
+
+/* Media query para tamaños de pantalla de tablet y superiores */
+@media screen and (min-width: 768px) {
+  #precios h2 {
+    font-size: 3rem; /* Por ejemplo, ajusta el tamaño del título para tablets */
+  }
+
+  .table-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .table-column {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .table-column h3 {
+    font-size: 1.8rem; /* Por ejemplo, ajusta el tamaño del subtítulo para tablets */
+  }
+
+  .table-column p {
+    font-size: 1.2rem; /* Por ejemplo, ajusta el tamaño del texto para tablets */
+  }
+
+  .table-column .price {
+    font-size: 1.4rem; /* Por ejemplo, ajusta el tamaño del precio para tablets */
+  }
+
+  .table-section {
+    padding: 30px 0; /* Por ejemplo, ajusta el espaciado superior e inferior para tablets */
+  }
+}
+
+/* Media query para tamaños de pantalla de celulares y tabletas más pequeñas */
+@media screen and (max-width: 767px) {
+  #precios h2 {
+    font-size: 2.5rem;
+  }
+
+  .table-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .table-column {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .table-column h3 {
+    font-size: 1.5rem;
+  }
+
+  .table-column p {
+    font-size: 1.1rem;
+  }
+
+  .table-column .price {
+    font-size: 1.2rem;
+  }
+
+  .table-section {
+    padding: 20px 0;
   }
 }
