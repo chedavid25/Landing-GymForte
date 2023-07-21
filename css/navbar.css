@@ -3,7 +3,7 @@
 }
 
 .header {
-  height: 120px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +15,7 @@
   width: 100%;
   font-family: var(--font-titulo);
   z-index: 100;
-  max-width: 1600px;
+  max-width: 2600px;
 }
 
 .header h1 {
@@ -29,6 +29,7 @@
   display: flex;
   gap: 50px;
   margin-right: 50px;
+  align-items: center;
 }
 .navbar {
   display: flex;
@@ -36,6 +37,7 @@
 .navbar #bar {
   display: none;
   font-size: 36px;
+  cursor: pointer;
 }
 
 #toggle-menu {
@@ -80,6 +82,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     display: none;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 1.5s ease, box-shadow 1.5s ease;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
   }
 
   .navbar #bar {
@@ -88,5 +93,11 @@
 
   #toggle-menu:checked ~ .navbar-list {
     display: flex;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
   }
+}
+
+#boton-ingresar {
+  align-items: center;
 }

@@ -22,10 +22,10 @@
 
         <ul class="navbar-list">
           <li><a href="#" class="navbar-link">Inicio</a></li>
-          <li><a href="#" class="navbar-link">Sobre Nosotros</a></li>
-          <li><a href="#" class="navbar-link">Precios</a></li>
-          <li><a href="#" class="navbar-link">Contacto</a></li>
-          <button type="button">Ingresar</button>
+          <li><a href="#nosotros" class="navbar-link">Nosotros</a></li>
+          <li><a href="#servicios" class="navbar-link">Servicios</a></li>
+          <li><a href="#contacto" class="navbar-link">Contacto</a></li>
+          <button type="button" id="boton-ingresar">Ingresar</button>
         </ul>
       </nav>
     </header>
@@ -46,7 +46,7 @@
       </div>
     </section>
 
-    <section class="about-us">
+    <section class="about-us" id="nosotros">
       <div class="about-us-content">
         <div class="about-us-text">
           <h2>Sobre Nosotros</h2>
@@ -64,7 +64,7 @@
       </div>
     </section>
 
-    <div class="cards-container">
+    <div class="cards-container" id="servicios">
       <div class="titulo-card">
         <h1>Nuestros Servicios</h1>
         <p>Descubre todo lo que Gym Fort tiene para ofrecerte</p>
@@ -74,7 +74,7 @@
           <img src="/img/mujer-entrenando-contra-estudio-negro.jpg" alt="mujer fitness">
           <div class="info">
             <h1>Fitness</h1>
-            <p>Esta es la descripción para ver si funciona la card de mierda</p>
+            <p>Tu lugar para ponerte en forma y mantener un estilo de vida activo y saludable. Ofrecemos clases de entrenamiento personalizado, sesiones de ejercicios grupales y más.</p>
             <a href="#" class="btn">Ver más</a>
           </div>
         </div>
@@ -83,7 +83,7 @@
           <img src="/img/flay-lay-of-portapapeles-maqueta-comestibles.jpg" alt="mujer fitness">
           <div class="info">
             <h1>Nutrición</h1>
-            <p>Esta es la descripción para ver si funciona la card de mierda</p>
+            <p>Te ofrecemos asesoramiento nutricional personalizado para alcanzar tus objetivos de salud y bienestar. Nuestro equipo de expertos te guiará en la planificación de una dieta balanceada y adecuada a tus necesidades.</p>
             <a href="#" class="btn">Ver más</a>
           </div>
         </div>
@@ -92,13 +92,44 @@
           <img src="/img/mujer-fitness-deportivo-pesas-aislado-sobre-fondo-negro.jpg" alt="mujer fitness">
           <div class="info">
             <h1>Musculación</h1>
-            <p>Esta es la descripción para ver si funciona la card de mierda</p>
+            <p>Descubre nuestro espacio dedicado a la musculación, equipado con máquinas de última generación y pesas libres. Nuestros entrenadores te ayudarán a diseñar un programa personalizado para desarrollar fuerza y resistencia.</p>
             <a href="#" class="btn">Ver más</a>
           </div>
         </div>
     </div>
 
-    <section class="contact">
+
+    <section class="table-section">
+      <h2>Items</h2>
+      <div class="table-container">
+          <div class="table-column">
+              <h3>Plan Básico</h3>
+              <p>&#10004; 3 veces por semana</p>
+              <p>&#10004; Acceso a musculación</p>
+              <p>&#10004; Horario por la mañana</p>
+              <p class="price">$3000 / mes</p>
+          </div>
+          <div class="table-column">
+              <h3>Plan Estándar</h3>
+              <p>&#10004; Acceso libre</p>
+              <p>&#10004; Acceso a musculación</p>
+              <p>&#10004; En el horario que quieras</p>
+              
+              <p class="price">$5000 / mes</p>
+          </div>
+          <div class="table-column">
+              <h3>Plan Premium</h3>
+              <p>&#10004; Todo lo del plan Estándar +</p>
+              <p>&#10004; Asesoramiento en nutrición</p>
+              <p>&#10004; Crossfit</p>
+              
+              
+              <p class="price">$6500 / mes</p>
+          </div>
+      </div>
+  </section>
+
+    <section class="contact" id="contacto">
       <div class="contact-content">
           <h1>Contácto</h1>
           <p>Completa el formulario a continuación para ponerte en contacto con nosotros.</p>
