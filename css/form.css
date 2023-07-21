@@ -1,0 +1,75 @@
+/* ... Otros estilos ... */
+
+.contact {
+  text-align: center;
+  padding: 4rem 2rem; /* Espaciado alrededor del formulario */
+  background-color: var(
+    --tercer-color
+  ); /* Color de fondo de la sección de formulario */
+}
+
+.contact-content {
+  max-width: 800px; /* Ancho máximo del contenido del formulario */
+  margin: 0 auto; /* Centrar el contenido en la página */
+}
+
+.contact-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+  font-family: var(--font-titulo);
+}
+
+.contact-content p {
+  font-size: 1.2rem;
+  color: white;
+  font-family: var(--font-parrafo);
+  padding-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+button {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 80%;
+  border-radius: 30px;
+  font-family: var(--font-titulo);
+}
+
+button {
+  background-color: var(--primer-color);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 80%;
+  border-radius: 30px;
+  font-family: var(--font-titulo);
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--primer-color);
+  transition: 0.8s;
+  padding: 3%;
+}
+
+@media screen and (max-width: 480px) {
+}

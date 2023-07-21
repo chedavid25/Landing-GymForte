@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import "navbar.css";
+@import "colors.css";
+@import "grid-container.css";
+@import "hero.css";
+@import "about.css";
+@import "cards.css";
+@import "form.css";
+@import "footer.css";
+@import "hero.css";
