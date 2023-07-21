@@ -67,7 +67,7 @@
   --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-@media (max-width: 815px) {
+@media (max-width: 950px) {
   .navbar ul {
     width: 100%;
     height: cal(100vh - 80px);
@@ -100,4 +100,30 @@
 
 #boton-ingresar {
   align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+  /* Estilos para tablets con ancho de pantalla entre 768px y 950px */
+  .header h1 {
+    margin-left: 50px; /* Por ejemplo, ajusta el margen izquierdo para tablets */
+  }
+
+  /* Agrega aquí los estilos específicos para tablets */
+}
+
+@media (max-width: 767px) {
+  /* Estilos para pantallas con ancho de pantalla menor o igual a 767px (celulares) */
+  .header {
+    height: 80px; /* Por ejemplo, ajusta la altura del encabezado para celulares */
+  }
+
+  .header h1 {
+    margin-left: 20px; /* Por ejemplo, ajusta el margen izquierdo para celulares */
+  }
+
+  .navbar ul {
+    gap: 20px; /* Por ejemplo, ajusta el espacio entre elementos para celulares */
+  }
+
+  /* Agrega aquí los estilos específicos para celulares */
 }
