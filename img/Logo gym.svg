@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 723.08 723.08">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#Degradado_sin_nombre_3-9);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-linejoin: round;
+        stroke-width: 2.52px;
+      }
+
+      .cls-10 {
+        fill: url(#Degradado_sin_nombre_3);
+      }
+
+      .cls-10, .cls-11 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: url(#Degradado_sin_nombre_3-8);
+      }
+
+      .cls-3 {
+        stroke: #050404;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        stroke: url(#Degradado_sin_nombre_3-5);
+      }
+
+      .cls-5 {
+        stroke: url(#Degradado_sin_nombre_3-2);
+      }
+
+      .cls-6 {
+        stroke: url(#Degradado_sin_nombre_3-4);
+      }
+
+      .cls-11 {
+        fill: #050404;
+      }
+
+      .cls-12 {
+        font-family: Poppins-Black, Poppins;
+        font-size: 69.71px;
+        font-weight: 800;
+      }
+
+      .cls-7 {
+        stroke: url(#Degradado_sin_nombre_3-3);
+      }
+
+      .cls-8 {
+        stroke: url(#Degradado_sin_nombre_3-7);
+      }
+
+      .cls-13 {
+        font-family: Poppins-Light, Poppins;
+        font-size: 48px;
+        font-weight: 300;
+      }
+
+      .cls-9 {
+        stroke: url(#Degradado_sin_nombre_3-6);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_3" data-name="Degradado sin nombre 3" x1="542.34" y1="674.69" x2="180.74" y2="48.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c6ff00"/>
+      <stop offset="1" stop-color="#d5e300"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_3-2" data-name="Degradado sin nombre 3" x1="525.27" y1="346.65" x2="525.27" y2="376.43" xlink:href="#Degradado_sin_nombre_3"/>
+    <linearGradient id="Degradado_sin_nombre_3-3" data-name="Degradado sin nombre 3" x1="361.58" y1="346.65" x2="361.58" y2="349.16" xlink:href="#Degradado_sin_nombre_3"/>
+    <linearGradient id="Degradado_sin_nombre_3-4" data-name="Degradado sin nombre 3" x1="197.92" y1="346.65" x2="197.92" y2="376.43" xlink:href="#Degradado_sin_nombre_3"/>
+    <linearGradient id="Degradado_sin_nombre_3-5" data-name="Degradado sin nombre 3" x1="361.37" y1="373.91" x2="361.37" y2="376.43" xlink:href="#Degradado_sin_nombre_3"/>
+    <linearGradient id="Degradado_sin_nombre_3-6" data-name="Degradado sin nombre 3" x1="446.73" y1="270.09" x2="446.73" y2="452.99" xlink:href="#Degradado_sin_nombre_3"/>
+    <linearGradient id="Degradado_sin_nombre_3-7" data-name="Degradado sin nombre 3" x1="489.94" y1="303.3" x2="489.94" y2="419.78" xlink:href="#Degradado_sin_nombre_3"/>
+    <linearGradient id="Degradado_sin_nombre_3-8" data-name="Degradado sin nombre 3" x1="2630.69" y1="945.51" x2="2630.69" y2="1128.41" gradientTransform="translate(-2354.34 -675.43)" xlink:href="#Degradado_sin_nombre_3"/>
+    <linearGradient id="Degradado_sin_nombre_3-9" data-name="Degradado sin nombre 3" x1="2673.89" y1="978.73" x2="2673.89" y2="1095.2" gradientTransform="translate(2907.03 1398.5) rotate(-180)" xlink:href="#Degradado_sin_nombre_3"/>
+  </defs>
+  <circle class="cls-10" cx="361.54" cy="361.54" r="361.54"/>
+  <path class="cls-3" d="m656.43,361.54c0,51.01-12.95,98.99-35.75,140.85"/>
+  <path class="cls-3" d="m102.39,502.38c-22.79-41.85-35.74-89.84-35.74-140.85"/>
+  <circle class="cls-11" cx="361.54" cy="361.54" r="224.92"/>
+  <g>
+    <text class="cls-12" transform="translate(166.38 175.67) rotate(-40.84)"><tspan x="0" y="0">G</tspan></text>
+    <text class="cls-12" transform="translate(209.05 139.37) rotate(-29.1)"><tspan x="0" y="0">Y</tspan></text>
+    <text class="cls-12" transform="translate(256.31 112.49) rotate(-15.83)"><tspan x="0" y="0">M</tspan></text>
+    <text class="cls-12" transform="translate(324.54 95.77) rotate(-6.59)"><tspan x="0" y="0"> </tspan></text>
+    <text class="cls-12" transform="translate(340.69 93.63) rotate(-.93)"><tspan x="0" y="0">F</tspan></text>
+    <text class="cls-12" transform="translate(384.77 92.88) rotate(10.72)"><tspan x="0" y="0">O</tspan></text>
+    <text class="cls-12" transform="translate(442.12 104.54) rotate(22.41)"><tspan x="0" y="0">R</tspan></text>
+    <text class="cls-12" transform="translate(488.65 124.29) rotate(32.81)"><tspan x="0" y="0">T</tspan></text>
+    <text class="cls-12" transform="translate(527.81 150.15) rotate(42.34)"><tspan x="0" y="0">E</tspan></text>
+  </g>
+  <g>
+    <text class="cls-13" transform="translate(90.45 524.56) rotate(56.78)"><tspan x="0" y="0">F</tspan></text>
+    <text class="cls-13" transform="translate(107.45 550.48) rotate(49.91)"><tspan x="0" y="0">O</tspan></text>
+    <text class="cls-13" transform="translate(137.2 584.61) rotate(42.62)"><tspan x="0" y="0">R</tspan></text>
+    <text class="cls-13" transform="translate(163.39 608.1) rotate(36.57)"><tspan x="0" y="0">T</tspan></text>
+    <text class="cls-13" transform="translate(189.3 627.05) rotate(30.19)"><tspan x="0" y="0">A</tspan></text>
+    <text class="cls-13" transform="translate(222.67 645.72) rotate(24.25)"><tspan x="0" y="0">L</tspan></text>
+    <text class="cls-13" transform="translate(247.32 656.58) rotate(18.97)"><tspan x="0" y="0">E</tspan></text>
+    <text class="cls-13" transform="translate(277.13 666.77) rotate(12.05)"><tspan x="0" y="0">C</tspan></text>
+    <text class="cls-13" transform="translate(320.6 675.2) rotate(5.18)"><tspan x="0" y="0">E</tspan></text>
+    <text class="cls-13" transform="translate(351.04 677.47) rotate(.93)"><tspan x="0" y="0"> </tspan></text>
+    <text class="cls-13" transform="translate(370.68 677.71) rotate(-3.86)"><tspan x="0" y="0">T</tspan></text>
+    <text class="cls-13" transform="translate(402.73 675.34) rotate(-10.29)"><tspan x="0" y="0">U</tspan></text>
+    <text class="cls-13" transform="translate(440.41 667.75) rotate(-15.6)"><tspan x="0" y="0"> </tspan></text>
+    <text class="cls-13" transform="translate(459.84 662.59) rotate(-21.45)"><tspan x="0" y="0">C</tspan></text>
+    <text class="cls-13" transform="translate(501.1 645.64) rotate(-29.09)"><tspan x="0" y="0">U</tspan></text>
+    <text class="cls-13" transform="translate(534.74 626.23) rotate(-35.43)"><tspan x="0" y="0">E</tspan></text>
+    <text class="cls-13" transform="translate(559.95 607.97) rotate(-41.41)"><tspan x="0" y="0">R</tspan></text>
+    <text class="cls-13" transform="translate(586.12 584.34) rotate(-47.66)"><tspan x="0" y="0">P</tspan></text>
+    <text class="cls-13" transform="translate(609.26 558.75) rotate(-54.85)"><tspan x="0" y="0">O</tspan></text>
+  </g>
+  <g>
+    <path class="cls-5" d="m511.76,347.9h13.38c7.53,0,13.63,6.1,13.63,13.63h0c0,7.53-6.1,13.63-13.63,13.63h-13.32"/>
+    <line class="cls-7" x1="298.21" y1="347.9" x2="424.95" y2="347.9"/>
+    <path class="cls-6" d="m211.27,375.17h-13.34c-7.53,0-13.63-6.1-13.63-13.63h0c0-7.53,6.1-13.63,13.63-13.63h13.6"/>
+    <line class="cls-4" x1="424.79" y1="375.17" x2="297.95" y2="375.17"/>
+    <g>
+      <path class="cls-9" d="m446.73,451.73h0c-11.93,0-21.6-9.67-21.6-21.6v-137.17c0-11.93,9.67-21.6,21.6-21.6h0c11.93,0,21.6,9.67,21.6,21.6v137.17c0,11.93-9.67,21.6-21.6,21.6Z"/>
+      <path class="cls-8" d="m489.94,418.52h0c-11.93,0-21.6-9.67-21.6-21.6v-70.75c0-11.93,9.67-21.6,21.6-21.6h0c11.93,0,21.6,9.67,21.6,21.6v70.75c0,11.93-9.67,21.6-21.6,21.6Z"/>
+      <rect class="cls-2" x="254.74" y="271.35" width="43.21" height="180.38" rx="5.69" ry="5.69" transform="translate(552.69 723.08) rotate(180)"/>
+      <path class="cls-1" d="m233.14,304.56h0c11.93,0,21.6,9.67,21.6,21.6v70.75c0,11.93-9.67,21.6-21.6,21.6h0c-11.93,0-21.6-9.67-21.6-21.6v-70.75c0-11.93,9.67-21.6,21.6-21.6Z"/>
+    </g>
+  </g>
+</svg>

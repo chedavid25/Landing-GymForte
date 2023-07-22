@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gym</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="/css/style.css" />
   </head>
 
   <body class="contenedor-general">
@@ -65,89 +66,121 @@
       </div>
     </section>
 
-    <div class="cards-container" id="servicios">
-      <div class="titulo-card">
-        <h1>Nuestros Servicios</h1>
-        <p>Descubre todo lo que Gym Fort tiene para ofrecerte</p>
+    <section class="our-services">
+      <div class="image-container">
+        <img
+          src="/img/chica servicios.png"
+          alt="Imagen de Nuestros Servicios"
+        />
       </div>
-      <div class="grid-cards">
-        <div class="cards">
-          <img src="/img/mujer-entrenando-contra-estudio-negro.jpg" alt="mujer fitness">
-          <div class="info">
-            <h1>Fitness</h1>
-            <p>Tu lugar para ponerte en forma y mantener un estilo de vida activo y saludable. Ofrecemos clases de entrenamiento personalizado, sesiones de ejercicios grupales y más.</p>
-            <a href="#" class="btn">Ver más</a>
-          </div>
+      <div class="service-description">
+        <div class="service">
+          <div class="titulo-servicios">Nuestros Servicios</div>
+          <h3>Entrenamiento Personalizado</h3>
+          <p>
+            Nuestro equipo de entrenadores altamente calificados y
+            experimentados está listo para diseñar un programa de entrenamiento
+            personalizado que se adapte a tus objetivos específicos.
+          </p>
         </div>
-
-        <div class="cards">
-          <img src="/img/flay-lay-of-portapapeles-maqueta-comestibles.jpg" alt="mujer fitness">
-          <div class="info">
-            <h1>Nutrición</h1>
-            <p>Te ofrecemos asesoramiento nutricional personalizado para alcanzar tus objetivos de salud y bienestar. Nuestro equipo de expertos te guiará en la planificación de una dieta balanceada y adecuada a tus necesidades.</p>
-            <a href="#" class="btn">Ver más</a>
-          </div>
+        <div class="service">
+          <h3>"Clases de Grupo Energizantes</h3>
+          <p>
+            Únete a nuestras divertidas y desafiantes clases de grupo, donde la
+            energía y el compañerismo se combinan para crear un ambiente
+            motivador. Desde clases de baile y cardio intenso hasta sesiones de
+            yoga y pilates, ofrecemos una amplia variedad de opciones para todos
+            los niveles de condición física.
+          </p>
         </div>
-
-        <div class="cards">
-          <img src="/img/mujer-fitness-deportivo-pesas-aislado-sobre-fondo-negro.jpg" alt="mujer fitness">
-          <div class="info">
-            <h1>Musculación</h1>
-            <p>Descubre nuestro espacio dedicado a la musculación, equipado con máquinas de última generación y pesas libres. Nuestros entrenadores te ayudarán a diseñar un programa personalizado para desarrollar fuerza y resistencia.</p>
-            <a href="#" class="btn">Ver más</a>
-          </div>
+        <div class="service">
+          <h3>Circuito de Entrenamiento de Alta Intensidad (HIIT)</h3>
+          <p>
+            Nuestro exclusivo circuito de entrenamiento HIIT te ofrece una forma
+            efectiva de quemar calorías y mejorar la resistencia cardiovascular
+            en un corto período de tiempo.
+          </p>
         </div>
-    </div>
-
+        <div class="service">
+          <h3>Relajación y Recuperación en nuestro Spa</h3>
+          <p>
+            En nuestro gimnasio, creemos que el descanso y la recuperación son
+            igualmente importantes para el bienestar general.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <section class="table-section" id="precios">
       <h2>Nuestros Planes</h2>
-      <div class="table-container">
-          <div class="table-column">
-              <h3>Plan Básico</h3>
-              <p>&#10004; 3 veces por semana</p>
-              <p>&#10004; Acceso a musculación</p>
-              <p>&#10004; Horario por la mañana</p>
-              <p class="price">$3000 / mes</p>
+      <div class="contenedor-cards">
+        <div class="card">
+          <div class="top-row background-top-row">
+            <h4>Plan Básico</h4>
+            <i class="fa-solid fa-dumbbell" style="color: #ffffff"></i>
           </div>
-          <div class="table-column">
-              <h3>Plan Estándar</h3>
-              <p>&#10004; Acceso libre</p>
-              <p>&#10004; Acceso a musculación</p>
-              <p>&#10004; En el horario que quieras</p>
-              
-              <p class="price">$5000 / mes</p>
+
+          <div class="content">
+            <h2 id="content-h2">Incluye:</h2>
+            <p>&#10004; Tres veces por semana</p>
+            <p>&#10004; Acceso a musculación</p>
+            <p>&#10004; Horario por la mañana</p>
+            <h3 class="price">$3000 / mes</h3>
           </div>
-          <div class="table-column">
-              <h3>Plan Premium</h3>
-              <p>&#10004; Todo lo del plan Estándar +</p>
-              <p>&#10004; Asesoramiento en nutrición</p>
-              <p>&#10004; Crossfit</p>
-              
-              
-              <p class="price">$6500 / mes</p>
+        </div>
+
+        <div class="card">
+          <div class="top-row background-top-row">
+            <h4>Plan Estandar</h4>
+            <i class="fa-solid fa-dumbbell" style="color: #ffffff"></i>
           </div>
+
+          <div class="content">
+            <h2 id="content-h2">Incluye:</h2>
+            <p>&#10004; Todos los días</p>
+            <p>&#10004; Acceso a musculación</p>
+            <p>&#10004; Clases de Crossfit</p>
+            <h3 class="price">$5000 / mes</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="top-row background-top-row">
+            <h4>Plan Full</h4>
+            <i class="fa-solid fa-dumbbell" style="color: #ffffff"></i>
+          </div>
+
+          <div class="content">
+            <h2 id="content-h2">Incluye:</h2>
+            <p>&#10004; Todo lo del plan Estandar +</p>
+            <p>&#10004; Clases de Yoga</p>
+            <p>&#10004; Acceso al Spa</p>
+            <h3 class="price">$6500 / mes</h3>
+          </div>
+        </div>
       </div>
-  </section>
+    </section>
 
     <section class="contact" id="contacto">
       <div class="contact-content">
-          <h1>Contácto</h1>
-          <p>Completa el formulario a continuación para ponerte en contacto con nosotros.</p>
-          <form>
-              <input type="text" name="nombre" placeholder="Nombre">
-              <input type="email" name="email" placeholder="Email">
-              <input type="tel" name="telefono" placeholder="Teléfono">
-              <button type="submit">Enviar</button>
-          </form>
+        <h1>Contácto</h1>
+        <p>
+          Completa el formulario a continuación para ponerte en contacto con
+          nosotros.
+        </p>
+        <form>
+          <input type="text" name="nombre" placeholder="Nombre" />
+          <input type="email" name="email" placeholder="Email" />
+          <input type="tel" name="telefono" placeholder="Teléfono" />
+          <button type="submit">Enviar</button>
+        </form>
       </div>
-  </section>
+    </section>
 
-  <footer class="footer">
-    <div class="footer-content">
+    <footer class="footer">
+      <div class="footer-content">
         <p>Todos los derechos reservados &copy; Gym Fort 2023</p>
-    </div>
-</footer>
-  
+      </div>
+    </footer>
   </body>
 </html>

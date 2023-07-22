@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+:root {
+  --primer-color: #45a10c;
+  --segundo-color: #171717;
+  --tercer-color: #282828;
+  --cuarto-color: #ffffff;
+  --font-titulo: "Poppins", sans-serif;
+  --font-parrafo: "Poppins", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-image: url(/img/chica\ portada\ 2.jpg);
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  transition: ease-out 2s;
+}
+
+.card {
+  border: 1rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+  overflow: hidden;
+  width: 25rem;
+  height: 35rem;
+  background-color: rgba(62, 62, 62, 0.6);
+  backdrop-filter: blur(0.1rem);
+  color: white;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.top-row {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.top-row i {
+  font-size: 4rem;
+}
+
+.content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  font-family: var(--font-titulo);
+}
+
+.content i {
+  font-size: 2.5rem;
+}
+
+.content h1 {
+  font-weight: 400;
+}
+
+.content p {
+  font-size: 0.9rem;
+  align-self: flex-start;
+}
+
+.text {
+  width: 100%;
+  height: 3rem;
+  color: rgb(52, 52, 52);
+  padding: 1rem;
+}
+.button {
+  border-radius: 30px;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px;
+  letter-spacing: 0.1rem;
+  background-color: var(--primer-color);
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: white;
+  color: var(--primer-color);
+  padding: 1rem;
+  transition: 0.5s;
+}
+.networks {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+}
