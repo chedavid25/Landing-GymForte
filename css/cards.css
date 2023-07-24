@@ -30,6 +30,10 @@
 
 .service {
   margin-bottom: 1rem;
+  border: 0.5px;
+  border: solid white;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .service h3 {
