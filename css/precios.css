@@ -116,15 +116,14 @@
 /* Estilos para tabletas */
 @media screen and (max-width: 768px) {
   .card {
-    width: 100%;
-    max-width: 15rem;
+    width: 20rem;
   }
 }
 
 /* Estilos para dispositivos móviles (celulares) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   .card {
-    width: 15rem;
+    height: auto;
   }
 
   .table-section h2 {
