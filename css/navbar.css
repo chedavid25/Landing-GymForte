@@ -147,4 +147,11 @@
     text-align: center;
     justify-content: center;
   }
+
+  .navbar-list {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: auto;
+  }
 }
