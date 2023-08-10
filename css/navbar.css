@@ -30,6 +30,8 @@
   gap: 50px;
   margin-right: 50px;
   align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 .navbar {
   display: flex;
@@ -57,11 +59,13 @@
   content: "";
   display: block;
   background-color: var(--primer-color);
-  width: 90%;
+  width: 100%;
   height: 3px;
   margin-top: 3px;
   clip-path: var(--clippy);
   transition: clip-path 0.5s;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar-link:hover {
@@ -90,7 +94,7 @@
     width: 100%;
     height: cal(100vh - 80px);
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 0;
     flex-direction: column;
     background-color: var(--tercer-color);
@@ -121,27 +125,26 @@
 }
 
 @media (min-width: 768px) and (max-width: 950px) {
-  /* Estilos para tablets con ancho de pantalla entre 768px y 950px */
   .header h1 {
-    margin-left: 50px; /* Por ejemplo, ajusta el margen izquierdo para tablets */
+    margin-left: 50px;
   }
-
-  /* Agrega aquí los estilos específicos para tablets */
 }
 
 @media (max-width: 767px) {
-  /* Estilos para pantallas con ancho de pantalla menor o igual a 767px (celulares) */
   .header {
-    height: 80px; /* Por ejemplo, ajusta la altura del encabezado para celulares */
+    height: 80px;
   }
 
   .header h1 {
-    margin-left: 20px; /* Por ejemplo, ajusta el margen izquierdo para celulares */
+    margin-left: 20px;
   }
 
   .navbar ul {
-    gap: 20px; /* Por ejemplo, ajusta el espacio entre elementos para celulares */
+    gap: 20px;
   }
 
-  /* Agrega aquí los estilos específicos para celulares */
+  .hero-content {
+    text-align: center;
+    justify-content: center;
+  }
 }
